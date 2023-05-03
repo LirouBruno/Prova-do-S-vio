@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Jardinagem</title>
+</head>
+<style>
+fieldset{
+    border-radius: 5px;
+    max-width: 400px;
+}
+table{
+    border: 5px;
+    margin: auto;
+}
+</style>
+<body>
+    <h1>Inscrição</h1>
+    <form method="get">
+        <fieldset>
+            <legend><b>Informações</b></legend>
+            <div>
+                <label for="">Nome:</label>
+                <input type="text" placeholder="Insira seu nome" required>
+            </div>
+            <br>
+            <div>
+                <label for="">E-mail:</label>
+                <input type="email" placeholder="Insira seu e-mail" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Senha:</label>
+                <input type="password" placeholder="Insira sua senha" required>
+            </div>
+            <br>
+            <div>
+              <label for="">Sua idade:</label> 
+              <input type="number" placeholder="Insira sua idade" required> 
+            </div>
+            <br>
+            <div>
+                <label for="">Qual a sua especialidade?</label>
+                <select name="" id="" required>
+                    <option value="escolha1">Selecione</option>
+                    <option value="escolha2">Jardineiro</option>
+                    <option value="escolha3">Assistente de Jardinagem</option>
+                    <option value="escolha4">Botânico</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Gênero:</label>
+                <input type="radio">
+                <label for="">Masculino</label>
+                <input type="radio">
+                <label for="">Feminino</label>
+                <input type="radio">
+                <label for="">Não identificar</label>
+            </div>
+            <br>
+            <div>
+                <label for="">Seu currículo:</label>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Escreva o seu currículo" required></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+    </form>
+</body>
+</html>
